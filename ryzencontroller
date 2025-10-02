@@ -1,1 +1,2 @@
-%users  ALL=(ALL) NOPASSWD: /opt/Ryzen\ Controller/ryzen-controller
+%wheel ALL=(ALL) NOPASSWD: /opt/Ryzen\ Controller/ryzen-controller
+
