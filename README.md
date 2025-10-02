@@ -3,12 +3,15 @@ ES
 Versión adaptada de Ryzen Controller para Arch Linux, diseñada para ejecutarse sin privilegios elevados ni contraseña. Esta edición utiliza scripts personalizados, integración vía sudoers.d, acceso gráfico temporal para root, y empaquetado reproducible mediante PKGBUILD. Ideal para usuarios del grupo wheel que buscan compatibilidad directa con el menú del sistema y ejecución segura desde terminal o entorno gráfico.
 
 📦 Archivos incluidos
+
 Ryzen Controller-bin-patched/
 ├── ryzencontroller               # Script principal que registra la app en sudoers.d
 ├── ryzen-launcher               # Script que habilita acceso gráfico y ejecuta vía sudo
 ├── remove-ryzen-controller.hook # Hook opcional para limpieza post-desinstalación
 ├── PKGBUILD                     # Script de empaquetado para Arch Linux
 └── README.md                    # Este archivo
+
+
 🛠️ Características
 
     ✅ Ejecutable desde menú o terminal sin contraseña.
