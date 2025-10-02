@@ -1,0 +1,4 @@
+#!/bin/bash
+xhost +SI:localuser:root
+sudo /opt/Ryzen\ Controller/ryzen-controller --no-sandbox
+xhost -SI:localuser:root

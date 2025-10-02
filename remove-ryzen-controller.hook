@@ -1,0 +1,9 @@
+[Trigger]
+Operation = Remove
+Type = Package
+Target = ryzen-controller-bin
+
+[Action]
+Description = Removing custom scripts from ryzen-controller-bin...
+When = PostTransaction
+Exec = /bin/bash -c 'rm -f /usr/local/bin/ryzen-launcher /etc/sudoers.d/ryzencontroller' 
